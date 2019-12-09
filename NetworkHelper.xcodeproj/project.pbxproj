@@ -14,6 +14,7 @@
 		0CFA4E75239DDB5900FE1C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFA4E74239DDB5900FE1C71 /* Assets.xcassets */; };
 		0CFA4E78239DDB5900FE1C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFA4E76239DDB5900FE1C71 /* LaunchScreen.storyboard */; };
 		0CFA4E86239DDC1500FE1C71 /* NetworkHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA4E85239DDC1500FE1C71 /* NetworkHelperTests.swift */; };
+		0CFA4E8E239DDCCB00FE1C71 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA4E8D239DDCCB00FE1C71 /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0CFA4E83239DDC1500FE1C71 /* NetworkHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFA4E85239DDC1500FE1C71 /* NetworkHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelperTests.swift; sourceTree = "<group>"; };
 		0CFA4E87239DDC1500FE1C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFA4E8D239DDCCB00FE1C71 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				0CFA4E6B239DDB5700FE1C71 /* AppDelegate.swift */,
 				0CFA4E6D239DDB5700FE1C71 /* SceneDelegate.swift */,
 				0CFA4E6F239DDB5700FE1C71 /* ViewController.swift */,
+				0CFA4E8D239DDCCB00FE1C71 /* NetworkHelper.swift */,
 				0CFA4E71239DDB5700FE1C71 /* Main.storyboard */,
 				0CFA4E74239DDB5900FE1C71 /* Assets.xcassets */,
 				0CFA4E76239DDB5900FE1C71 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFA4E8E239DDCCB00FE1C71 /* NetworkHelper.swift in Sources */,
 				0CFA4E70239DDB5700FE1C71 /* ViewController.swift in Sources */,
 				0CFA4E6C239DDB5700FE1C71 /* AppDelegate.swift in Sources */,
 				0CFA4E6E239DDB5700FE1C71 /* SceneDelegate.swift in Sources */,
